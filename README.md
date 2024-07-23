@@ -5,6 +5,10 @@
 ### Código en Jupyter
 En este documento encontramos código comentado que nos guía paso a paso para subir el archivo CSV, examinar su contenido, limpiarlo, transformar datos y mostrar gráficos que nos ayuden a encontrar patrones en él. He utilizado `seaborn` y `matplotlib`. Con esta última librería se pueden hacer gráficos mucho más elaborados, pero al menos aquí podemos hacernos una idea del uso que se le puede dar. También hemos creado una tabla de manera manual y la hemos unido a la nuestra a través de un JOIN. Posteriormente, hemos volcado nuestros datos en una base de datos creada en SQL Server y hemos realizado consultas en ella. Finalmente, hemos terminado de preprocesar los datos para su posterior entrenamiento con Machine Learning.
 
+### Archivo SQL con la creación de la base de datos y el esquema.
+
+### Archivo CSV limpio, tras los cambios hechos y listo para su análisis en los siguientes dashboards.
+
 ### Dashboard en PowerBI
 En este dashboard interactivo podemos filtrar los datos por tipo de transporte, día de la semana y mes. Los datos que obtenemos son:
 - El número de pasajeros total por ruta (siglas) en un gráfico de barras.
